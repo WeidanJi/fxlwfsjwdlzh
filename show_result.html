@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>展示截图效果</title>
+</head>
+<body>
+
+<div class="center">
+    <div id="videopanel" style="display:none">
+        <video autoplay="autoplay" controls id="test_mp4" width="640" height="480">
+
+        </video>
+    </div>
+    <div>
+        <button type="button" id="clickme">点击截图</button>
+    </div>
+    <!--canvas画布-->
+    <div>
+        <button type="button" id="ibutton">保存图片</button>
+    </div>
+    <canvas id="icanvas" width="640" height="480">
+        you can't see me???
+    </canvas>
+    <canvas id="icanvasimg" width="640" height="480">
+        you can't see me???
+    </canvas>
+</div>
+<!--import jQuery-->
+<script type="text/javascript" src ="http://works.enjoyfe.com/ganen/jquery-1.10.1.min.js"></script>
+<script src = "cut_video.js"></script>
+
+</body>
+</html>
+
